@@ -1,4 +1,4 @@
-from task.decorators.decorators import input_error
+from decorators.decorators import input_error
 from address_book.address_book import AddressBook
 from contacts.contacts import Record
 

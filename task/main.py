@@ -1,8 +1,8 @@
-from task.functions.functions_contact import *
-from task.address_book.address_book import AddressBook
-from task.functions.functions_birthday import *
-from task.utils.utils import *
-from task.contacts.contacts import *
+from functions.functions_contact import *
+from address_book.address_book import AddressBook
+from functions.functions_birthday import *
+from utils.utils import *
+from contacts.contacts import *
 
 
 def main():
