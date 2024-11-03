@@ -29,6 +29,7 @@ class Record:
      def __init__(self, name):
         self.name = Name(name)
         self.phones = []
+        self.birthday = None
     
      def add_phone(self,phone):
         self.phones.append(Phone(phone))
@@ -42,6 +43,7 @@ class Record:
                   self.phones[idx]=Phone(new_phone)
      def find_phone(self,phone):
           return str(Phone(phone)in [str(p) for p in self.phones])
+     
      def add_birthday(self,birthday):
           self.birthday=Birthday(birthday)
 
